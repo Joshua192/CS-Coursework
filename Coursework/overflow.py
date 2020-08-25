@@ -17,12 +17,12 @@ grayscale = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # cv2.waitKey(0)
 
 #Use bilateral filter function to remove noise from the image
-bilateral = cv2.bilateralFilter(grayscale, 11, 17, 17)
-# cv2.imshow("Noise Removal", bilateral)
+place_holder = cv2.bilateralFilter(grayscale, 11, 17, 17)
+# cv2.imshow("Noise Removal", place_holder)
 # cv2.waitKey(0)
 
 #The Canny method is used to detect the 'edges' of an image
-edgeFinder = cv2.Canny(bilateral, 100, 200)     #(170, 200)
+edgeFinder = cv2.Canny(grayscale, 100, 200)
 # cv2.imshow("Canny Edge", edgeFinder)
 # cv2.waitKey(0)
 
@@ -64,22 +64,5 @@ for i in cnts:
         cv2.imwrite(str(name)+ '.jpeg', crop_img)
         name +=1
         break
-newImage3 = image.copy()
-cv2.drawContours(newImage3,[numberPlateCount], -1, (0,255,0), 2)
-# cv2.imshow("Final Image", newImage3)
-# cv2.waitKey(0)
 
-# cv2.imshow("Cropped Image", crop_img)
-# cv2.waitKey(0)
-
-crop_img_local = "license plates\license_plate(3).jpeg"
-x = cv2.imread(crop_img_local)
-print(x)
-print("License plate number is: ")
-text = pytesseract.image_to_string(x, lang="eng")
-print(text)
-
-if text == " ":
-    print("Error handling conversion")
-else:
-    print("License should appear, not a conversion error!")        
+cv2.imshow("Crop", crop_img)
