@@ -3,7 +3,7 @@ import imutils #Image resizig library
 import pytesseract #OCR library
 import PIL 
 pytesseract.pytesseract.tesseract_cmd =r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
-image = cv2.imread("license plates\license_plate(2).jpeg")  #Original Image
+image = cv2.imread("license plates\blue.jpg")  #Original Image
 image = imutils.resize(image, width = 300)  #Resized Image
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  #Grayscale Image
 bilateral = cv2.bilateralFilter(gray, 11, 17, 17) #Noise Removed
