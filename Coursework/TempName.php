@@ -2,7 +2,7 @@
 <html>
     <head>
     <link href="style.css" rel=stylesheet>
-        <title>There is no Title (FOR NOW)</title>
+        <title>TempName</title>
     </head>
 
 <body>
