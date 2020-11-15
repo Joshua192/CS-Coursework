@@ -1,3 +1,4 @@
+<!-- !!!!DONT FORGET TO COPY THE FILES INTO THE PATH C:\xaamp\htdocs\phpcoursework-->
 <!DOCTYPE html>
 <html>
     <head>
