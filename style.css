@@ -1,11 +1,11 @@
 html {
-	background-color: darkgray;
-	color: tomato;
+	text-align: center;
+	background-color: #dc0e0e;
+	color: red;
 }
 
 body,
 title {
-	text-align: center;
 	font-family: verdana;
 	font-size: 10px;
 }

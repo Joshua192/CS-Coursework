@@ -1,4 +1,4 @@
-<!-- !!!!DONT FORGET TO COPY THE FILES INTO THE PATH C:\xaamp\htdocs\phpcoursework-->
+<!-- !!!!DONT FORGET TO COPY THE FILES INTO THE PATH C:\xaamp\htdocs\phpcoursework{DONE}-->
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,7 +7,7 @@
     </head>
 
 <body>
-<p>LOREM IPSUM DOLOR SIT AMET</p>
+
 <form action="TempName2.php">
   First name:<input type="text" name="forename"><br>
   Last name:<input type="text" name="surname"><br>
@@ -22,9 +22,9 @@
     </select>
   <br>
   <!--Next 3 lines create a radio button which we can use to select the user role-->
-  <input type="radio" name="role" value="Pupil" checked> Pupil<br>
-  <input type="radio" name="role" value="Teacher"> Teacher<br>
-  <input type="radio" name="role" value="Admin"> Admin<br>
+    User Type:<br>
+    <input type="radio" name="role" value="driver" checked> Driver<br>
+    <input type="radio" name="role" value="admin"> Admin<br>
   <input type="submit" value="Add User">
 </form>
 
