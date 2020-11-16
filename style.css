@@ -1,7 +1,7 @@
 html {
 	text-align: center;
-	background-color: #dc0e0e;
-	color: red;
+	background-color: darkslategray;
+	color: whitesmoke;
 }
 
 body,
@@ -11,7 +11,7 @@ title {
 }
 title {
 	font-family: cursive;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 br {

@@ -3,6 +3,7 @@
 <html>
     <head>
     <link href="style.css" rel=stylesheet>
+    <!--SIGN UP PAGE HERE-->
         <title>TempName</title>
     </head>
 
