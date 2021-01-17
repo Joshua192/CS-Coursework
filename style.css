@@ -1,19 +1,41 @@
-html {
-	text-align: center;
-	background-color: darkslategray;
-	color: whitesmoke;
+
+/*#970830 red*/
+/*rgb(0, 46, 96) blue*/
+.all {
+	font-family: Palatino Linotype;
+	font-size: 15px;
+	text-align:center;
+	line-height: 1.5;
+	background-color: white;
+	color: black;
 }
 
-body,
-title {
-	font-family: verdana;
-	font-size: 10px;
-}
-title {
-	font-family: cursive;
-	font-size: 25px;
+input {
+	width: 150px;
+	}
+
+.header {
+	font-family: Palatino Linotype;
+	font-size: 40px;
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(0, 46, 96);
+	color: white;
 }
 
-br {
+.button {
+	font-family: Palatino Linotype;
+	font-size: 15px;
 	text-align: center;
+	padding: 15px 32px;
+	display: inline-block;
+	transition-duration: 0.7s;
+	color: white;
+	background-color: #970830;
+	border: 2px solid #970830;
 }
+
+.button:hover {
+	background-color: white;
+	color: #970830;
+  }
